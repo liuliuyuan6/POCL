@@ -1,5 +1,7 @@
 ## Being Strong Progressively! Enhancing Knowledge Distillation of Large Language Models through a Curriculum Learning Framework
 
+[paper](https://arxiv.org/abs/2506.05695)
+
 We propose POCL, a plug-and80 play curriculum learning framework inspired by the "progressive overload" principle in strength training. The framework leverages the student model to assess and rank sample difficulty using reciprocal rank fusion, partitioning the dataset into easy-to-hard subsets. A training scheduler—referred to as Baby Step—iteratively expands the training set, starting from the simplest samples and gradually incorporating more difficult ones after fixed intervals or convergence, until the full dataset is utilized.
 
 <center>
@@ -129,3 +131,17 @@ The following table compares the performance of various distillation methods on 
 |               |                | reverse_skewKLD+POCL | 26.17     | 13.28    | 16.66      | 28.49  | 30.12  | 22.94  |
 |               |                | GKD(on policy)      | 24.67     | 11.48    | 15.66      | 23.80   | 25.26  | 20.17  |
 |               |                | GKD(on policy)+POCL  | 26.60      | 12.62    | 16.70       | 27.02  | 29.61  | 22.51  |
+
+## Citation
+
+```
+@misc{liu2025strongprogressivelyenhancingknowledge,
+      title={Being Strong Progressively! Enhancing Knowledge Distillation of Large Language Models through a Curriculum Learning Framework}, 
+      author={Lingyuan Liu and Mengxiang Zhang},
+      year={2025},
+      eprint={2506.05695},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2506.05695}, 
+}
+```
