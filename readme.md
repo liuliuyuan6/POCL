@@ -2,7 +2,7 @@
 
 [paper](https://arxiv.org/abs/2506.05695)
 
-We propose POCL, a plug-and80 play curriculum learning framework inspired by the "progressive overload" principle in strength training. The framework leverages the student model to assess and rank sample difficulty using reciprocal rank fusion, partitioning the dataset into easy-to-hard subsets. A training scheduler—referred to as Baby Step—iteratively expands the training set, starting from the simplest samples and gradually incorporating more difficult ones after fixed intervals or convergence, until the full dataset is utilized.
+We propose POCL, a plug-and-play curriculum learning framework inspired by the "progressive overload" principle in strength training. The framework leverages the student model to assess and rank sample difficulty using reciprocal rank fusion, partitioning the dataset into easy-to-hard subsets. A training scheduler—referred to as Baby Step—iteratively expands the training set, starting from the simplest samples and gradually incorporating more difficult ones after fixed intervals or convergence, until the full dataset is utilized.
 
 <center>
 <img src="framework.png" alt="workflow" style="width: 400px; height: 300px;">
